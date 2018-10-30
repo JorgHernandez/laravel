@@ -14,9 +14,5 @@ class PageController extends Controller
     {
          return view('login');
     }
-     public function productos()
-    {
-         return view('productos');
-    }
 
 }
