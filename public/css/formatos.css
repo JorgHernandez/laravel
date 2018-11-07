@@ -1,0 +1,24 @@
+.txtgaleria{
+	font-family: Century Gothic;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+
+.imggaleria{
+	border-width: 4px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.zoom img{
+	height: 100px;
+	width: 150px;
+	margin: 0px 0;
+	transition: all 1s ease;
+}
+.zoom img:hover {
+	height: 200px;
+	width: 300px;
+	margin: 0 auto;
+}
